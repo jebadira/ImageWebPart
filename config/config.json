@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/imageWebPart/ImageWebPartWebPart.js",
+      "manifest": "./src/webparts/imageWebPart/ImageWebPartWebPart.manifest.json",
+      "outputPath": "./dist/image-web-part.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "imageWebPartStrings": "webparts/imageWebPart/loc/{locale}.js"
+  }
+}

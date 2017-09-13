@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "878d29e0-cb50-4a22-a12f-985582d953c7",
+  "alias": "ImageWebPartWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "878d29e0-cb50-4a22-a12f-985582d953c7",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Image-Web-Part" },
+    "description": { "default": "Web Part used to hold an image" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Image-Web-Part"
+    }
+  }]
+}
