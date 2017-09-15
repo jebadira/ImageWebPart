@@ -16,7 +16,7 @@ export default class ImageContainer extends React.PureComponent{
         }else{
             image = <img src={this.props.url} />
         }*/
-        image = <img src={this.props.url} />
+        image = <img src={this.props.url} style={{maxWidth: 350, width: "100%"}}/>
         return(
         <div className="ImageContainer">
             <div>
